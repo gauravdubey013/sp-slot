@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpeedPark - home</title>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+      $.get("/html/navbar.html", function (data) {
+        $("#nav-placeholder").replaceWith(data);
+      });
+    </script>
+    <!-- <script>
+      $.get("home.html", function (data) {
+        $("#home-placeholder").replaceWith(data);
+      });
+    </script> -->
+  </head>
+  <body>
+    <div id="nav-placeholder" />
+    <!-- <div id="home-placeholder" /> -->
+    <div>SpeedPark</div>
+  </body>
+</html>

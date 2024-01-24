@@ -1,0 +1,23 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("/assets/v.jpeg");
+  color: black;
+}
+
+header {
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+p {
+  line-height: 1.5;
+}

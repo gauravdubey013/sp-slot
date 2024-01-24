@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slots</title>
+    <link rel="stylesheet" href="/css/bookslot.css">
+<body>
+    <body>
+    <h2>Book a Slot</h2>
+    <nav class="navbar">
+      </nav>
+         <nav>
+            <a href="/html/home.html">Home</a>
+            <a href="/html/aboutus.html">Go to About Us</a>
+            <li><a href="/html/slot.html">View Slots</a></li>
+            <!-- <a href="#">View Parking</a>
+            <a href="#">Book Parking</a> -->
+        </nav>
+        
+        <form class="form-containe">
+       <label for="selectDate">Select Date:</label>
+       <input type="date" id="selectDate" name="selectDate">        
+    <label for="startTime">Select Start Time:</label>
+    <input type="time" id="startTime" name="startTime">
+        <label for="selectHour">Select Hour:</label>
+        <select name="selectHour">
+            <option value="1" id="selectHour">1 Hrs</option>
+            <option value="2" id="selectHour">2 Hrs</option>
+            <option value="3" id="selectHour">3 Hrs</option>
+            <option value="4" id="selectHour">4 Hrs</option>
+            <option value="5" id="selectHour">5 Hrs</option>
+            <option value="6" id="selectHour">6 Hrs</option>
+            <option value="7" id="selectHour">7 Hrs</option>
+            <option value="8" id="selectHour">8 Hrs</option>
+            <option value="9" id="selectHour">9 Hrs</option>
+            <option value="10" id="selectHour">10 Hrs</option>
+            <option value="11" id="selectHour">11 Hrs</option>
+            <option value="12" id="selectHour">12 Hrs</option>
+        </select>
+        <label for="selectSlots">Select Slot number:</label>
+        <input type="number" id="selectSlots" name="selectSlots" min="1" max="15">
+        <label for="vehicleType">Choose a vehicle type:</label>
+        <select name="vehicleType">
+            <option value="2-wheeler" id="vehicleType">2-Wheeler</option>
+            <option value="4-wheeler" id="vehicleType">4-Wheeler</option>
+        </select>
+        <button type="button" id="book_slot_submit">Book Slot</button>
+    </form>
+  <script type="module" src="/js/bookslot.js"></script>
+        </body>
+        </html>
